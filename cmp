@@ -1,0 +1,28 @@
+<aura:component>
+    
+
+        
+       
+            
+           
+            <div  onclick="{!c.toggleActivity}">
+                <div >
+               
+                    <strong>click</strong>
+
+                </div>
+                </div>
+                
+                
+                <!--expandable section start-->
+                <div 
+                     class="slds-is-collapsed"
+                          aura:id="expId"
+                         aria-hidden="true">
+               <p>Hidden Content</p>
+                </div>
+        
+            
+        
+
+</aura:component>
